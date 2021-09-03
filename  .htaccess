@@ -1,0 +1,9 @@
+# BEGIN WordPress
+RewriteRule ^home\.php$ – [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /home.php [L]
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.dev.natifico\.com$ [NC]
+RewriteRule ^$ http://www.dev.natifico.com/home/ [R=301,L]
+# END WordPress

@@ -1,0 +1,307 @@
+.our-blog-up{
+    display: flex;
+    
+    max-width: 1180px;
+    width: 100%;
+}
+.our-blog-up-blog-blog{
+  max-width: 580px;
+    width: 48%;
+}
+  
+.our-blog-up-left, .our-blog-up-right{
+    position: relative;
+}
+.our-blog-up-left>div p{
+    position: absolute;
+    max-width: 370px;
+    width: 80%;
+    bottom: -13px;
+    left: 22px;
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.our-blog-up-right>div p{
+    position: absolute;
+    max-width: 537px;
+    width: 80%;
+    bottom: -13px;
+    left: 22px;
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.search{
+    max-width: 1080px;
+    width:100% ;   
+    height: 50px;
+    display: flex;
+    margin: 20px auto 0;
+    box-shadow: 0px 0px 10px rgba(142, 142, 142, 0.1);
+}
+.search input{
+    max-width: 1130px;
+    width:100% ;   
+    height: 50px;
+    text-indent: 23px;
+    border:none;
+    background: #FFFFFF;
+
+}
+.search button{
+    max-width: 50px;
+    width:100% ;   
+    height: 52px;
+    border: none;
+    background: #fff url(./images/page5/search.svg) no-repeat center;
+
+}
+
+.our-partners-blog{
+  padding: 0 14px;
+}
+
+
+
+
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .content {
+
+    display: none;
+  }
+  #loadMore {
+    margin-top: 10px;
+    width: 172px;
+    height: 50px;
+    border: 1px solid #343C5C;
+    background: none;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    text-decoration: none;
+    color: #343C5C;
+    transition: .3s;
+  }
+  #loadMore:hover {
+    background: #343C5C;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .noContent {
+    color: gray !important;
+    background-color: transparent !important;
+    pointer-events: none;
+    border: none !important;
+  }
+
+.spirits{
+  background: url(./images/page5/Rectangle7.png); background-size:cover; max-width: 580px; width:100%; height: 355px; position: relative;
+}
+.amazon{
+  background: url(./images/page5/Rectangle8.png); background-size:cover; max-width: 580px; width:100%;height: 179px; position: relative;
+}
+.even{
+  background: url(./images/page5/Rectangle9.png); background-size:cover; max-width: 580px; width:100%;height: 179px; position: relative;
+}
+
+@media (max-width:1180px){
+  .topslider2-1180-blog{
+  margin: 0 auto !important;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.topslider2-1180-blog h1{
+  text-align: center;
+}
+}
+
+@media(max-width:850px){
+.our-blog-up-blog-blog {
+    max-width: 1580px;
+    width: 100%;
+   padding: 0 14px
+}
+.our-blog-up {
+  display: flex;
+  max-width: 1180px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.spirits {
+  max-width: 1580px;
+  height: 290px;
+}
+.amazon, .even {
+
+  max-width: 1580px;
+
+}
+}
+@media(max-width:700px){
+  .our-blog-up-left>div p, .our-blog-up-right>div p {
+    font-size: 15px !important;
+    width: 93% !important;
+  }
+.topslider2-1180-blog {
+    text-align: center;
+    font-size: 23px !important;
+    margin: -64px auto !important;
+}
+  .topslider2-1180-blog h1{
+    text-align: center;
+    font-size: 23px !important;
+}
+  .spirits, .amazon, .even {
+ 
+    height: 120px;
+}
+.our-partners-blog {
+  max-width: 1767px !important;
+  margin: 50px auto !important;
+  text-align: center;
+}
+.our-blog-up-right>div p {
+
+  bottom: 5px;
+  left: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+}
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-width: 1300px) and (min-resolution: 192dpi) {
+  .topslider2-1180-blog h1 {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px !important; 
+    text-transform: uppercase;
+    color: #fff;
+}
+.topslider2-1180-blog {
+  max-width: 767px !important;
+}
+.spirits{
+  background: url(./images/page5/Rectangle7.png); background-size:cover; max-width: 1377px !important; width:100%; height: 233px !important; position: relative;
+}
+.amazon{
+  background: url(./images/page5/Rectangle8.png); background-size:cover; max-width: 1377px; width:100%;height: 116px !important; position: relative;
+}
+.even{
+  background: url(./images/page5/Rectangle9.png); background-size:cover; max-width: 1377px; width:100%;height: 116px; position: relative;
+}
+.our-blog-up-left>div p {
+  position: absolute;
+  max-width: 260px;
+  width: 80%;
+  bottom: -7px;
+  left: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px !important;
+  line-height: 30px !important;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.our-blog-up-right>div p {
+  position: absolute;
+  max-width: 267px;
+  width: 80%;
+  bottom: -5px;
+  left: 22px;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.search {
+  max-width: 767px;
+  width: 100%;
+  height: 32.5px;
+  display: flex;
+  margin: 20px auto 20px !important;
+  box-shadow: 0px 0px 10px rgba(142, 142, 142, 0.1);
+}
+.search input {
+  max-width: 767px;
+  width: 100%;
+  height: 32.5px;
+  text-indent: 17px;
+  border: none;
+  background: #FFFFFF;
+  font-size: 9px;
+}
+.search button {
+  max-width: 32.5px;
+  width: 100%;
+  height: 34.5px;
+  border: none;
+  background: #fff url(./images/page5/search.svg) no-repeat center;
+  background-size:13px 13px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 767px;
+  margin: 0 auto;
+}
+#loadMore {
+  margin-top: 7px;
+  width: 102px;
+  height: 32.5px;
+  border: 1px solid #343C5C;
+  background: none;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size:10px;
+  display: block;
+  text-align: center;
+  margin: 14px auto;
+  text-decoration: none;
+  color: #343C5C;
+  transition: .3s;
+}
+.our-partners-blog-find{
+  font-size: 16px !important;
+}
+}
+
+

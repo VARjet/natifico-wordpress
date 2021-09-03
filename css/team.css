@@ -1,0 +1,343 @@
+
+
+
+.team-big-img-1{
+    background: url(../images/page4/111.png);
+    background-position: center;
+    background-size: cover;
+    margin: 6px 0 0 0;
+    width:36.5% ;
+    height: 520px;}
+.team-big-img-2{
+    background: url(../images/page4/222.png);
+    background-position: center;
+    background-size:cover;
+    margin: 6px 0 0 0;
+    width:63% ;
+    height:520px;}
+.team-big-img-3{background: url(../images/page4/333.png);     background-position: center;   background-size: cover; margin: 6px 0 0 0; width:56% ;height: 520px;}
+.team-big-img-4{background: url(../images/page4/444.png);     background-position: center;   background-size: cover; margin: 6px 0 0 0; width:43.5% ;height: 520px;}
+.team-big-img-5{background: url(../images/page4/555.png);     background-position: center;   background-size: cover; margin: 6px 0 0 0; width:69% ;height: 520px;}
+.team-big-img-6{background: url(../images/page4/666.png);     background-position: center;   background-size: cover; margin: 6px 0 0 0; width:30.5% ;height: 520px;}
+
+
+
+
+
+
+
+
+.topslider2-1180{
+    max-width: 1180px;
+    margin: -64px auto;
+}
+.topslider2-1180 h1{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.topslider2-1180 p{
+    font-family: 'Roboto Condensed', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 180%;
+    color: #fff;
+}
+.big-team{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+.team-men{
+    max-width: 590px;
+    width: 100%;
+    min-height:360px;
+    display: flex;
+}
+.men-photo{
+    max-width: 295px;
+    min-height:360px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.men-text{
+    max-width: 295px;
+    min-height:360px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    left: 25px;
+}
+.men-text h1{
+    padding:30px 0 10px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 8px;
+    color: #172B43;
+    font-family: 'Roboto Condensed', serif;
+}
+.men-text h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1px;
+    color: #172B43;
+    font-family: 'Roboto Condensed', serif;
+}
+.men-text p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    max-width: 235px;
+    line-height: 150%;
+    color: #7B8095;
+    font-family: 'Roboto Condensed', serif;
+}
+.men-social{
+    margin: 35px 0 0;
+    max-width: 225px;
+    width: 100%;
+
+}
+.men-social img{
+    width: 32px;
+    height: 32px;
+    margin: 0 10px 0 0;
+}
+
+.topslider2-footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1030px;
+    margin: 10px auto 0;
+    flex-wrap:wrap ;
+}
+.topslider2-footer p{
+    font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+font-family: 'Roboto Condensed', serif;
+}
+
+.team-gallery{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.topslider2-1180-team img{
+    display: none;
+}
+@media (max-width:1195px){
+    .team-men{
+        margin: 7px auto 0;
+    }
+}
+
+@media (max-width:700px){
+    .our-team-h1-h1{
+        margin: 30px auto; 
+    }
+    .big-team{
+        padding: 0 14px;
+    }
+    .team-men{
+        margin: 0 auto;
+        flex-flow: column;
+        max-width: 370px;
+        min-height: 600px;
+    }
+    .team-men-reverse{
+        flex-flow: column-reverse;
+    }
+    .men-text {
+        max-width: 800px;
+        min-height: 240px;
+        width: 100%;
+        text-align: left;
+        position: relative;
+        left: 0px;
+        top:10px;
+    }
+    .men-photo {
+        max-width: 800px;
+        min-height: 460px;
+        width: 100%;
+        background-size: cover !important;
+        background-position: top !important;
+    }
+    .men-text p {
+        max-width: 800px;
+    }
+    .topslider2-footer p {
+        font-size: 15px ;
+    }
+    .slider-button-1-team{
+        width: 100%;
+        max-width: 491px;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .slider-button-1-team p {
+        padding-left:0px ;
+    }
+    .topslider2-team{
+        margin: 50px auto !important;
+    }
+    .topslider2-1180-team p{
+        padding: 0 14px;
+        font-size: 15px;
+        text-align: left;
+    }
+    .topslider2-1180-team div{
+        text-align: center;
+    }
+    .topslider2-1180-team img{
+        display: inline;
+        width: 234px;
+        height: 234px;
+        text-align: center;
+    }
+    .topslider-2-team-text-2{
+        display: none;
+    }
+    .team-gallery {
+        max-width: 1180px;
+        flex-flow: column;
+    }
+    .team-gallery div{
+    width: 100% !important;
+    height: 200px !important;   
+    }
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.4) and (min-width: 1180px) {
+    .topslider2-1180-team p {
+        font-size: 14px ;
+    }
+
+    .big-team{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 767px;
+    }
+    .team-men{
+        max-width: 383px;
+        width: 100%;
+        min-height:234px;
+        display: flex;
+    }
+    .men-photo{
+        max-width: 192px;
+        min-height:234px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .men-text{
+        max-width: 192px;
+        min-height:234px;
+        width: 100%;
+        text-align: left;
+        position: relative;
+        left: 15px;
+    }
+    .men-text h1{
+        padding:0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        color: #172B43;
+        font-family: 'Roboto Condensed', serif;
+    }
+    .men-text h2{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 1px;
+        color: #172B43;
+        font-family: 'Roboto Condensed', serif;
+    }
+    .men-text p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        max-width: 152px;
+        line-height: 150%;
+        color: #7B8095;
+        font-family: 'Roboto Condensed', serif;
+    }
+    .men-social{
+        margin: 20px 0 0;
+        max-width: 146px;
+        width: 100%;
+    
+    }
+    .men-social img{
+        width: 20px;
+        height: 20px;
+        margin: 0 6px 0 0;
+    }
+    
+    .topslider2-footer{
+        display: flex;
+        justify-content: space-between;
+        max-width: 670px;
+        margin: 6px auto 0;
+        flex-wrap:wrap ;
+    }
+    .topslider2-footer p{
+        font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Roboto Condensed', serif;
+    }
+    
+    .team-gallery{
+        max-width: 767px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .topslider2-footer p {
+        font-size: 14px !important;
+    }
+
+
+    .team-big-img-1{
+        background: url(../images/page4/111.png);
+        background-position: center;
+        background-size: cover;
+        margin: 3px 0 0 0;
+        width:36.5% ;
+        height: 338px;}
+    .team-big-img-2{
+        background: url(../images/page4/222.png);
+        background-position: center;
+        background-size:cover;
+        margin: 3px 0 0 0;
+        width:63% ;
+        height:338px;}
+    .team-big-img-3{background: url(../images/page4/333.png);     background-position: center;   background-size: cover; margin: 3px 0 0 0; width:56% ;height: 338px;}
+    .team-big-img-4{background: url(../images/page4/444.png);     background-position: center;   background-size: cover; margin: 3px 0 0 0; width:43.5% ;height: 338px;}
+    .team-big-img-5{background: url(../images/page4/555.png);     background-position: center;   background-size: cover; margin: 3px 0 0 0; width:69% ;height: 338px;}
+    .team-big-img-6{background: url(../images/page4/666.png);     background-position: center;   background-size: cover; margin: 3px 0 0 0; width:30.5% ;height: 338px;}    
+}
